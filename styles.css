@@ -1,0 +1,12 @@
+body {
+    background-image: url('C2_Desktop_DSC0013.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    opacity: 0.75;
+    text-align: center;
+}
