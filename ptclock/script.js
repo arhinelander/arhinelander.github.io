@@ -7,7 +7,7 @@ function updateTime() {
   const seconds = now.getSeconds();
   let dateStr = (hours % 12) || 12;
   dateStr += ":" + minutes.toString().padStart(2, '0');
-  dateStr += ":" + seconds.toString().padStart(2, '0');
+  //dateStr += ":" + seconds.toString().padStart(2, '0');
   dateStr += hours >= 12 ? ' pm' : ' am';
   document.getElementById('current-time-value').innerHTML = dateStr;
 
