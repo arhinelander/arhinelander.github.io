@@ -9,7 +9,6 @@ function updateTime() {
   dateStr += ":" + minutes.toString().padStart(2, '0');
   dateStr += ":" + seconds.toString().padStart(2, '0');
   dateStr += hours >= 12 ? ' pm' : ' am';
-
   document.getElementById('current-time-value').innerHTML = dateStr;
 
   if (minutes % 10 === 0 && seconds % 60 === 0) {
