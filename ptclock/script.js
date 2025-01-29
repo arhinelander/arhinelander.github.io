@@ -11,7 +11,7 @@ function updateTime() {
   dateStr += hours >= 12 ? ' pm' : ' am';
   document.getElementById('current-time-value').innerHTML = dateStr;
 
-  if (minutes % 10 === 0 && seconds % 60 === 0) {
+  if (minutes % 2 === 0 && seconds % 60 === 0) {
     chime.play();
   }
 }
